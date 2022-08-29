@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #07142e;
+    /* primari-color other #07142e */
+    --border-color: #dbdbdb;
+    --price-color: #f5c32d;
+
+    --header-height: 180px;
+    --logo-height: calc((var(--header-height)) * 0.8);
+    --nav-main-height: calc((var(--logo-height)) / 2);
+    --wide: 1200px;
+    --slide-height: 320px;
+    --circle-width:200px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.y-50{
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.x-50{
+    left:50%;
+    transform: translateX(-50%)
+}

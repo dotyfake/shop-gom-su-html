@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band Douty</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="header__main wide" id="header">
+            <div class="header__left">
+                <a class="logo" href="">
+                    <img src="assets/img/logo.png" alt="Gốm sứ Khuê My">
+                </a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-top">
+                    <div class="header__search">
+                        <input type="text" class="search__input y-50" placeholder="Bạn muốn tìm đồ gì?"></input>
+                        <span class=""><i class="fas fa-search"></i></span>
+                    </div>
+                    <div class="header__navbar">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="header__user">
+                        <div class="user__avatar"></div>
+                        <div class="user__sign">
+                            <a href="" class="user__sign-in ">Đăng nhập</a> -
+                            <a href="" class="user__sign-up ">Đăng ký</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__right-bottom">
+                    <div class="header__nav-main">
+                        <ul class="nav-main__list">
+                            <li class="nav-main__list-item">
+                                <a href="" class="nav-main__link-item home">Trang chủ</a>
+                            </li>
+                            <li class="nav-main__list-item">
+                                <a href="" class="nav-main__link-item">Liên hệ</a>
+                            </li>
+                            <li class="nav-main__list-item">
+                                <a href="" class="nav-main__link-item">Tin mới</a>
+                            </li>
+                            <li class="nav-main__list-item">
+                                <a href="" class="nav-main__link-item">Gốm sứ chất lượng cao</a>
+                            </li>
+                            <li class="nav-main__list-item">
+                                <a href="" class="nav-main__link-item">Sản phẩm
+                                    <span>
+                                        <i class="fas fa-caret-down"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__cart">
+                        <span>
+                            <!-- <i class="fas fa-chevron-left"></i> -->
+                            <i class="fas fa-shopping-cart"></i>
+                            <!-- <i class="fas fa-chevron-right"></i> -->
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="slideshow wide">
+            <div class="row no-gutters">
+                <div class="slide-show col l-9 m-12 c-12">
+                    <input type="radio" name="check" id="slide-1">
+                    <input type="radio" name="check" id="slide-2">
+                    <div class="slider">
+                        <div class="slides slide-img-1"
+                            style="background: url(./assets/img/slide-1.jpg) no-repeat center/ cover;"></div>
+                        <div class="slides slide-img-2"
+                            style="background: url(./assets/img/slide-2.jpg) no-repeat center/ cover;"></div>
+                    </div>
+                    <div class="a">
+                        <label for="slide-1"></label>
+                        <label for="slide-2"></label>
+                    </div>
+                </div>
+                <div class="slide-status col l-3 m-12 c-12">
+                    <div class="slide-status__item">
+                        <div class="slide-status__icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="slide-status__info">
+                            <h3>Gốm sứ chất lượng cao</h3>
+                            <span>Quy trình sản xuất đạt tiêu chuẩn!</span>
+                        </div>
+                    </div>
+
+                    <div class="slide-status__item">
+                        <div class="slide-status__icon">
+                            <i class="fas fa-store-alt"></i>
+                        </div>
+                        <div class="slide-status__info">
+                            <h3>Mua hàng(T2-CN)</h3>
+                            <span>Mở cửa tất cả các ngày trong tuần!</span>
+                        </div>
+                    </div>
+
+                    <div class="slide-status__item">
+                        <div class="slide-status__icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <div class="slide-status__info">
+                            <h3>Miễn phí giao hàng</h3>
+                            <span>Dành cho hóa đơn trên 300k và < 4km</span> </div> </div> </div> </div> </div> <div
+                                    class="product wide">
+                                    <div class="new-product__label">
+                                        <h2>Bộ sản phẩm mới</h2>
+                                    </div>
+                                    <div class="new-product row">
+                                        <div class="new-product__item col l-3 m-6 c-6">
+                                            <div class="new-product__item-info">
+                                                <h3>Bát thanh diệp</h3>
+                                                <p>30.000₫</p>
+                                                <a href="">Mua ngay</a>
+                                                <div class="new-product__item-img"
+                                                    style="background: url(./assets/img/product/1.png) no-repeat center/ cover;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="new-product__item col l-3 m-6 c-6">
+                                            <div class="new-product__item-info">
+                                                <h3>Bát hoa nho</h3>
+                                                <p>20.000₫</p>
+                                                <a href="">Mua ngay</a>
+                                                <div class="new-product__item-img"
+                                                    style="background: url(./assets/img/product/2.png) no-repeat center/ cover;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="new-product__item col l-3 m-6 c-6">
+                                            <div class="new-product__item-info">
+                                                <h3>Bát thanh ngư</h3>
+                                                <p>20.000₫</p>
+                                                <a href="">Mua ngay</a>
+                                                <div class="new-product__item-img"
+                                                    style="background: url(./assets/img/product/3.png) no-repeat center/ cover;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="new-product__item col l-3 m-6 c-6">
+                                            <div class="new-product__item-info">
+                                                <h3>Bát hoa (có nắp)</h3>
+                                                <p>35.000₫</p>
+                                                <a href="">Mua ngay</a>
+                                                <div class="new-product__item-img"
+                                                    style="background: url(./assets/img/product/4.png) no-repeat center/ cover;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="new-product__item col l-3 m-6 c-6">
+                                            <div class="new-product__item-info">
+                                                <h3>Đĩa hoa Nghệ An</h3>
+                                                <p>25.000₫</p>
+                                                <a href="">Mua ngay</a>
+                                                <div class="new-product__item-img"
+                                                    style="background: url(./assets/img/product/5.png) no-repeat center/ cover;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="new-product__item col l-3 m-6 c-6">
+                                            <div class="new-product__item-info">
+                                                <h3>Bát cùng đĩa hoa lá</h3>
+                                                <p>55.000₫</p>
+                                                <a href="">Mua ngay</a>
+                                                <div class="new-product__item-img"
+                                                    style="background: url(./assets/img/product/6.png) no-repeat center/ cover;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="new-product__item col l-3 m-6 c-6">
+                                            <div class="new-product__item-info">
+                                                <h3>Bát thanh điệp</h3>
+                                                <p>15.000₫</p>
+                                                <a href="">Mua ngay</a>
+                                                <div class="new-product__item-img"
+                                                    style="background: url(./assets/img/product/7.png) no-repeat center/ cover;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="new-product__item col l-3 m-6 c-6">
+                                            <div class="new-product__item-info">
+                                                <h3>Bát cùng đĩa hoa văn</h3>
+                                                <p>45.000₫</p>
+                                                <a href="">Mua ngay</a>
+                                                <div class="new-product__item-img"
+                                                    style="background: url(./assets/img/product/8.png) no-repeat center/ cover;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="new-product__label">
+                                        <h2>Sản phẩm bán chạy!</h2>
+                                    </div>
+                                    <div class="hot-product row">
+                                        <div class="hot-item col l-5 item">
+                                            <div class="hot-product__item">
+                                                <div class="hot-product__item-img"
+                                                    style="background: url(./assets/img/product/hot1.png) no-repeat center/ cover;">
+                                                </div>
+                                                <div class="hot-product__item-info">
+                                                    <h3>Cốc ấm cùng đĩa xanh</h3>
+                                                    <p>45.000₫</p>
+                                                    <span>Sản phẩm có nguồn gốc từ làng gốm sứ, đạt tiêu chuẩn tiêu
+                                                        dùng!</span>
+                                                    <a href="">Mua ngay</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="hot-product__center col l-2">
+
+                                        </div>
+                                        <div class="hot-item col l-5 item">
+                                            <div class="hot-product__item">
+                                                <div class="hot-product__item-img"
+                                                    style="background: url(./assets/img/product/hot2.png) no-repeat center/ cover;">
+                                                </div>
+                                                <div class="hot-product__item-info">
+                                                    <h3>3 Đĩa hoa văn</h3>
+                                                    <p>75.000₫</p>
+                                                    <span>Sản phẩm có nguồn gốc từ làng gốm sứ, đạt tiêu chuẩn tiêu
+                                                        dùng!</span>
+                                                    <a href="">Mua ngay</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hot-item col l-5 item">
+                                            <div class="hot-product__item">
+                                                <div class="hot-product__item-img"
+                                                    style="background: url(./assets/img/product/hot3.png) no-repeat center/ cover;">
+                                                </div>
+                                                <div class="hot-product__item-info">
+                                                    <h3>Bộ 3 đĩa cửu châu</h3>
+                                                    <p>45.000₫</p>
+                                                    <span>Sản phẩm có nguồn gốc từ làng gốm sứ, đạt tiêu chuẩn tiêu
+                                                        dùng!</span>
+                                                    <a href="">Mua ngay</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="hot-product__center col l-2">
+
+                                        </div>
+                                        <div class="hot-item col l-5 item">
+                                            <div class="hot-product__item">
+                                                <div class="hot-product__item-img"
+                                                    style="background: url(./assets/img/product/hot4.png) no-repeat center/ cover;">
+                                                </div>
+                                                <div class="hot-product__item-info">
+                                                    <h3>3 Đĩa hoa văn nhỏ</h3>
+                                                    <p>55.000₫</p>
+                                                    <span>Sản phẩm có nguồn gốc từ làng gốm sứ, đạt tiêu chuẩn tiêu
+                                                        dùng!</span>
+                                                    <a href="">Mua ngay</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hot-item col l-5 item">
+                                            <div class="hot-product__item">
+                                                <div class="hot-product__item-img"
+                                                    style="background: url(./assets/img/product/hot5.png) no-repeat center/ cover;">
+                                                </div>
+                                                <div class="hot-product__item-info">
+                                                    <h3>Đĩa thanh nhật</h3>
+                                                    <p>35.000₫</p>
+                                                    <span>Sản phẩm có nguồn gốc từ làng gốm sứ, đạt tiêu chuẩn tiêu
+                                                        dùng!</span>
+                                                    <a href="">Mua ngay</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="hot-product__center col l-2">
+
+                                        </div>
+                                        <div class="hot-item col l-5 item">
+                                            <div class="hot-product__item">
+                                                <div class="hot-product__item-img"
+                                                    style="background: url(./assets/img/product/hot6.png) no-repeat center/ cover;">
+                                                </div>
+                                                <div class="hot-product__item-info">
+                                                    <h3>Đĩa hoa văn</h3>
+                                                    <p>45.000₫</p>
+                                                    <span>Sản phẩm có nguồn gốc từ làng gốm sứ, đạt tiêu chuẩn tiêu
+                                                        dùng!</span>
+                                                    <a href="">Mua ngay</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                        </div>
+                        <div class="same-price wide">
+                            <div class="new-product__label">
+                                <h2>Sản phẩm đồng giá</h2>
+                            </div>
+                            <div class="same-price__circle">
+                                <div class="circle">
+                                    <span style="--i:1">
+                                        <a href="#">
+                                            <img src="assets/img/circle/c1.png">
+                                        </a>
+                                    </span>
+                                    <span style="--i:2">
+                                        <a href="#">
+                                            <img src="assets/img/circle/c2.png">
+                                        </a>
+                                    </span>
+                                    <span style="--i:3">
+                                        <a href="#">
+                                            <img src="assets/img/circle/c3.png">
+                                        </a>
+                                    </span>
+                                    <span style="--i:4">
+                                        <a href="#">
+                                            <img src="assets/img/circle/c4.png">
+                                        </a>
+                                    </span>
+                                    <span style="--i:5">
+                                        <a href="#">
+                                            <img src="assets/img/circle/c5.png">
+                                        </a>
+                                    </span>
+                                    <span style="--i:6">
+                                        <a href="#">
+                                            <img src="assets/img/circle/c6.png">
+                                        </a>
+                                    </span>
+                                    <span style="--i:7">
+                                        <a href="#">
+                                            <img src="assets/img/circle/c7.png">
+                                        </a>
+                                    </span>
+                                    <span style="--i:8">
+                                        <a href="#">
+                                            <img src="assets/img/circle/c8.png">
+                                        </a>
+                                    </span>
+                                    <div class="circle-buy">
+                                        <a href="">
+                                            <h3>SẢN PHẨM ĐỒNG GIÁ 35.000₫</h3>
+                                            <p>Mua ngay</p>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews">
+                            <div class="new-product__label wide">
+                                <h2>Đánh giá từ khách hàng</h2>
+                            </div>
+                            <div class="reviews__slider">
+                                <div class="reviews__slider-item"
+                                    style="background:linear-gradient(rgba(231, 242, 251,.3), rgba(231, 242, 251,.3)), url(./assets/img/reviews/r1.jpg) no-repeat center/ cover">
+                                    <div class="reviews__slider-img"
+                                        style="background: url(./assets/img/reviews/a4.png) no-repeat center/ cover">
+                                    </div>
+                                    <div class="reviews-description">
+                                        <h2>Nguyễn Thu Huyền</h2>
+                                        <p>Mua về phải vào bếp nấu luôn chị ạ!! Bộ bát đĩa quá trời là đẹp, rất ủng hộ
+                                            chị!</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__slider-item"
+                                    style="background:linear-gradient(rgba(231, 242, 251,.3), rgba(231, 242, 251,.3)), url(./assets/img/reviews/r2.jpg) no-repeat center/ cover">
+                                    <div class="reviews__slider-img"
+                                        style="background: url(./assets/img/reviews/a1.png) no-repeat center/ cover">
+                                    </div>
+                                    <div class="reviews-description">
+                                        <h2>Phạm Thanh Hằng</h2>
+                                        <p>Được bộ sứ đẹp, ăn cơm ngon hẳn lun! Em thích lắm chị ạ!</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__slider-item"
+                                    style="background:linear-gradient(rgba(231, 242, 251,.3), rgba(231, 242, 251,.3)), url(./assets/img/reviews/r3.jpg) no-repeat center/ cover">
+                                    <div class="reviews__slider-img"
+                                        style="background: url(./assets/img/reviews/a3.png) no-repeat center/ cover">
+                                    </div>
+                                    <div class="reviews-description">
+                                        <h2>Lung Thị Linh</h2>
+                                        <p>Mẹ em cứ bảo mua về làm gì cho chật nhà, rồi đến giờ thì hôm nào nấu ăn cũng
+                                            dùng bộ này chị ạ!</p>
+                                    </div>
+                                </div>
+                                <div class="reviews__slider-item"
+                                    style="background:linear-gradient(rgba(231, 242, 251,.3), rgba(231, 242, 251,.3)), url(./assets/img/reviews/r4.jpg) no-repeat center/ cover">
+                                    <div class="reviews__slider-img"
+                                        style="background: url(./assets/img/reviews/a2.png) no-repeat center/ cover">
+                                    </div>
+                                    <div class="reviews-description">
+                                        <h2>Linh Thị Lung</h2>
+                                        <p>Hôm qua mua về mà chồng em cứ bảo em nấu nhìn ảo diệu hơn, nhìn bộ sứ đẹp
+                                            quá!</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="news wide">
+                            <div class="new-product__label">
+                                <h2>Tin mới</h2>
+                            </div>
+                            <div class="row">
+                                <div class="news__box col l-8 m-12 c-12">
+                                    <div class="row">
+                                        <div class="news__box-items col l-4 m-6 c-12">
+                                            <a href="">
+                                                <div class="news__box-item">
+                                                    <div class="box-item__img"
+                                                        style="background: url(./assets/img/news/n1.jpg) no-repeat center/ cover">
+                                                    </div>
+                                                    <h2>Gốm sứ màu đẹp</h2>
+                                                    <span>Sự kết hợp hài hoà giữa các màu sắc tạo nên một siêu phẩm đồ
+                                                        sứ khiến ai cũng phải trầm trồ! Cũng là sự kết hợp giữa công
+                                                        nghệ làm gốm sứ gia truyền và hiện đại</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="news__box-items col l-4 m-6 c-12">
+                                            <a href="">
+                                                <div class="news__box-item">
+                                                    <div class="box-item__img"
+                                                        style="background: url(./assets/img/news/n2.jpg) no-repeat center/ cover">
+                                                    </div>
+                                                    <h2>Tuyển tập cốc sứ đẹp</h2>
+                                                    <span>Sự kết hợp hài hoà giữa các màu sắc tạo nên một siêu phẩm đồ
+                                                        sứ khiến ai cũng phải trầm trồ! Cũng là sự kết hợp giữa công
+                                                        nghệ làm gốm sứ gia truyền và hiện đại</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="news__box-items col l-4 m-6 c-12">
+                                            <a href="">
+                                                <div class="news__box-item">
+                                                    <div class="box-item__img"
+                                                        style="background: url(./assets/img/news/n3.jpg) no-repeat center/ cover">
+                                                    </div>
+                                                    <h2>Bình sứ độc lạ</h2>
+                                                    <span>Sự kết hợp hài hoà giữa các màu sắc tạo nên một siêu phẩm đồ
+                                                        sứ khiến ai cũng phải trầm trồ! Cũng là sự kết hợp giữa công
+                                                        nghệ làm gốm sứ gia truyền và hiện đại</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="news__box-items col l-4 m-6 c-12">
+                                            <a href="">
+                                                <div class="news__box-item">
+                                                    <div class="box-item__img"
+                                                        style="background: url(./assets/img/news/n4.jpg) no-repeat center/ cover">
+                                                    </div>
+                                                    <h2>Những đĩa gốm sứ đẹp nhất</h2>
+                                                    <span>Sự kết hợp hài hoà giữa các màu sắc tạo nên một siêu phẩm đồ
+                                                        sứ khiến ai cũng phải trầm trồ! Cũng là sự kết hợp giữa công
+                                                        nghệ làm gốm sứ gia truyền và hiện đại</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="news__box-items col l-4 m-6 c-12">
+                                            <a href="">
+                                                <div class="news__box-item">
+                                                    <div class="box-item__img"
+                                                        style="background: url(./assets/img/news/n5.jpg) no-repeat center/ cover">
+                                                    </div>
+                                                    <h2>Xả cốc gốm sứ giá xỉ</h2>
+                                                    <span>Sự kết hợp hài hoà giữa các màu sắc tạo nên một siêu phẩm đồ
+                                                        sứ khiến ai cũng phải trầm trồ! Cũng là sự kết hợp giữa công
+                                                        nghệ làm gốm sứ gia truyền và hiện đại</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="news__box-items col l-4 m-6 c-12">
+                                            <a href="">
+                                                <div class="news__box-item">
+                                                    <div class="box-item__img"
+                                                        style="background: url(./assets/img/news/n6.jpg) no-repeat center/ cover">
+                                                    </div>
+                                                    <h2>Gốm sứ màu đẹp</h2>
+                                                    <span>Sự kết hợp hài hoà giữa các màu sắc tạo nên một siêu phẩm đồ
+                                                        sứ khiến ai cũng phải trầm trồ! Cũng là sự kết hợp giữa công
+                                                        nghệ làm gốm sứ gia truyền và hiện đại</span>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <a href="">Xem tất cả</a>
+
+                                </div>
+                                <div class="news__list col l-4 m-12 c-12">
+                                    <div class="row">
+                                        <div class="news__box-items col l-12 m-6 c-12">
+                                            <a href="">
+                                                <div class="news__box-item">
+                                                    <div class="box-item__img"
+                                                        style="background: url(./assets/img/news/n1.jpg) no-repeat center/ cover">
+                                                    </div>
+                                                    <div>
+                                                        <h2>Gốm sứ màu đẹp</h2>
+                                                        <span>Sự kết hợp hài hoà giữa các màu sắc tạo nên một siêu phẩm
+                                                            đồ sứ khiến ai cũng phải trầm trồ! Cũng là sự kết hợp giữa
+                                                            công nghệ làm gốm sứ gia truyền và hiện đại</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="news__box-items col l-12 m-6 c-12">
+                                            <a href="">
+                                                <div class="news__box-item">
+                                                    <div class="box-item__img"
+                                                        style="background: url(./assets/img/news/n2.jpg) no-repeat center/ cover">
+                                                    </div>
+                                                    <div>
+                                                        <h2>Tuyển tập cốc sứ đẹp</h2>
+                                                        <span>Sự kết hợp hài hoà giữa các màu sắc tạo nên một siêu phẩm
+                                                            đồ sứ khiến ai cũng phải trầm trồ! Cũng là sự kết hợp giữa
+                                                            công nghệ làm gốm sứ gia truyền và hiện đại</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="news__box-items col l-12 m-6 c-12">
+                                            <a href="">
+                                                <div class="news__box-item">
+                                                    <div class="box-item__img"
+                                                        style="background: url(./assets/img/news/n3.jpg) no-repeat center/ cover">
+                                                    </div>
+                                                    <div>
+                                                        <h2>Bình sứ độc lạ</h2>
+                                                        <span>Sự kết hợp hài hoà giữa các màu sắc tạo nên một siêu phẩm
+                                                            đồ sứ khiến ai cũng phải trầm trồ! Cũng là sự kết hợp giữa
+                                                            công nghệ làm gốm sứ gia truyền và hiện đại</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="news__box-items col l-12 m-6 c-12">
+                                            <a href="">
+                                                <div class="news__box-item">
+                                                    <div class="box-item__img"
+                                                        style="background: url(./assets/img/news/n4.jpg) no-repeat center/ cover">
+                                                    </div>
+                                                    <div>
+                                                        <h2>Những đĩa gốm sứ đẹp nhất</h2>
+                                                        <span>Sự kết hợp hài hoà giữa các màu sắc tạo nên một siêu phẩm
+                                                            đồ sứ khiến ai cũng phải trầm trồ! Cũng là sự kết hợp giữa
+                                                            công nghệ làm gốm sứ gia truyền và hiện đại</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="news__box-items col l-12 m-6 c-12">
+                                            <a href="">
+                                                <div class="news__box-item">
+                                                    <div class="box-item__img"
+                                                        style="background: url(./assets/img/news/n5.jpg) no-repeat center/ cover">
+                                                    </div>
+                                                    <div>
+                                                        <h2>Xả cốc gốm sứ giá xỉ</h2>
+                                                        <span>Sự kết hợp hài hoà giữa các màu sắc tạo nên một siêu phẩm
+                                                            đồ sứ khiến ai cũng phải trầm trồ! Cũng là sự kết hợp giữa
+                                                            công nghệ làm gốm sứ gia truyền và hiện đại</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="news__box-items col l-12 m-6 c-12">
+                                            <a href="">
+                                                <div class="news__box-item">
+                                                    <div class="box-item__img"
+                                                        style="background: url(./assets/img/news/n6.jpg) no-repeat center/ cover">
+                                                    </div>
+                                                    <div>
+                                                        <h2>Gốm sứ màu đẹp</h2>
+                                                        <span>Sự kết hợp hài hoà giữa các màu sắc tạo nên một siêu phẩm
+                                                            đồ sứ khiến ai cũng phải trầm trồ! Cũng là sự kết hợp giữa
+                                                            công nghệ làm gốm sứ gia truyền và hiện đại</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="">Xem tất cả</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <div class='wide footer-item'>
+                            <img class="footer-logo" src="assets/img/logo.png" alt="">
+                            <div>
+                                <h2>Gốm sứ Khuê My</h2>
+                                <p>SĐT: 1900561252</p>
+                                <p>Địa chỉ: Sơn La, cụ thể là ở trong thành phố</p>
+                                <p>Email: 1900561252@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script src="assets/js/main.js"></script>
+</body>
+
+</html>
